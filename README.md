@@ -15,6 +15,7 @@ When creating 2D puzzles, you can export them as a shape file for Adobe Illustra
 *   You can control the offsets in the corners of the puzzles.
 *   You can create columns - a column will appear at the junction of two puzzles, and both of these puzzles will have a concavity.
 *   You can edit the array of convexity/concavity to create your own overall puzzle pattern.
+*   When "Automatically Update" is enabled, all parameter changes will immediately affect the appearance of the puzzles (you don't need to click "Generate" or "Update" every time)
 
 > [!WARNING]\
 > The important parts of the source code is encrypted - don't be alarmed, this is not a mistake, I did it on purpose. I don't want to publish the source code itself, but from these files you can understand the size of the project and its complexity. Therefore, the "Generate" button will not do anything (since the code is encrypted and commented out). This script is for reference only, not for use, sorry;)
@@ -35,6 +36,7 @@ When creating 2D puzzles, you can export them as a shape file for Adobe Illustra
 *   Можно управлять смещениями в углах пазлов.
 *   Можно создавать колонны - это на стыке двух пазлов появится колонна, а у обоих этих пазла будет вогнутость.
 *   Можно редактироть массив выгнутостей/вогнутостей для придания собственного общего узора пазлов.
+*   При включении "Automatically Update" все изменения параметров будут сразу же влиять на внешний вид пазлов (Вам не нужно нажимать каждый раз "Generate" или "Update")
 
 > [!WARNING]\
 > Важные части исходного кода зашифрованы — не пугайтесь, это не ошибка, я сделал это специально. Сам исходный код публиковать не хочу, но по этим файлам можно понять размер проекта и его сложность. Поэтому кнопка «Generate» не будет ничего делать (т.к. код зашифрован и закомментирован). Этот скрипт предназначен только для ознакомления, а не для использования, извините;)
